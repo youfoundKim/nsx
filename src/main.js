@@ -3,9 +3,11 @@ const path = require("path");
 const Context = require("./context.js");
 const { handleReceivedVisiMessage, handleSentVisiMessage } = require("./visi/handlers.js");
 
-if (require('electron-squirrel-startup')) {
+if (require("electron-squirrel-startup")) {
   app.quit();
 }
+
+require("update-electron-app")();
 
 // TODO:
 // add coords to tiles

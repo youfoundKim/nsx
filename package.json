@@ -2,15 +2,8 @@
   "name": "nsx",
   "version": "0.0.1",
   "description": "a n.dk client",
-  "main": "src/main.js",
-  "scripts": {
-    "start": "electron --inspect=5858 .",
-    "package": "electron-forge package",
-    "publish": "electron-forge publish",
-    "make": "electron-forge make"
-  },
-  "author": "Kim Nedergaard Clausen",
   "license": "MIT",
+  "author": "Kim Nedergaard Clausen",
   "homepage": "https://github.com/youfoundKim/nsx#readme",
   "repository": {
     "type": "git",
@@ -19,8 +12,16 @@
   "bugs": {
     "url": "https://github.com/youfoundKim/nsx/issues"
   },
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron --inspect=5858 .",
+    "package": "electron-forge package",
+    "publish": "electron-forge publish",
+    "make": "electron-forge make"
+  },
   "dependencies": {
-    "electron-squirrel-startup": "^1.0.0"
+    "electron-squirrel-startup": "^1.0.0",
+    "update-electron-app": "^2.0.1"
   },
   "devDependencies": {
     "@electron-forge/cli": "^6.0.5",
