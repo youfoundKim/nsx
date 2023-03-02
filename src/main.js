@@ -21,7 +21,7 @@ let tmp = 0;
 // create main window and load n.dk
 function createWindow() {
   const win = new BrowserWindow({
-    width: 900,
+    width: 800,
     height: 515,
     autoHideMenuBar: true,
     webPreferences: {
